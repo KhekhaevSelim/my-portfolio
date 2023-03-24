@@ -1,0 +1,8 @@
+.nav{
+border : solid 2px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    gap : 20px;
+    /*margin-right: 20px;*/
+}

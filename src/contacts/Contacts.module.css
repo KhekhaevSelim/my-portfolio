@@ -1,0 +1,57 @@
+.main {
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.container{
+    width: 80%;
+    height: 60%;
+    /*margin: 0 auto;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+gap : 20px;
+}
+.title{
+    font-size: 20px;
+    background-color: white;
+}
+.button{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border : none;
+    background-color: blueviolet;
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 640px){
+    .container{
+
+
+    }
+    .form{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap : 20px;
+    }
+    .button{
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        border : none;
+        cursor: pointer;
+        background-color: blueviolet;
+    }
+}

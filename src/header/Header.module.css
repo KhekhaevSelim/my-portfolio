@@ -1,0 +1,7 @@
+.header{
+    height: 80px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
