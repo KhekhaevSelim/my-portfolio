@@ -1,8 +1,103 @@
-.nav{
-border : solid 2px;
-    width: 80%;
+.nav {
+    width: 100%;
+    height: 60px;
     display: flex;
-    justify-content: flex-end;
-    gap : 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
     /*margin-right: 20px;*/
+    position: fixed;
+    background-color: #0a101c;
+    z-index: 999;
+}
+
+.developer {
+    min-width: 60vw;
+    /*height: 10vh;*/
+    margin: 0 0 0 10%;
+    color: #289AB6;
+    font-family: 'Passion One', cursive;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.openMenu {
+    width: 40px;
+    height: 30px;
+    margin-right: 2.2%;
+    margin-top: -0.4%;
+    cursor: pointer;
+    transition: 400ms ease;
+}
+
+.openMenu:hover {
+    transform: scale(1.2);
+}
+
+.showMenu {
+    color: darkgrey;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    top: 0;
+    position: fixed;
+}
+
+.closeMenuContainer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.closeMenu {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 3.3%;
+    margin-top: -0.5%;
+    transition: 1000ms ease;
+}
+
+.closeMenu:hover {
+    transform: rotate(360deg);
+}
+
+.links {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 42px;
+    font-weight: 900;
+    transition: 300ms linear;
+}
+
+.links a:hover {
+    transform: scale(1.1);
+    color: #289AB6;
+}
+
+@media screen and (max-width: 706px) {
+    .developer {
+        font-size: 32px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .developer {
+        font-size: 18px;
+        font-weight: 900;
+    }
 }

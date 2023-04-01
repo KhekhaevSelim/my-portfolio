@@ -1,0 +1,21 @@
+.stickyWhatsApp{
+    left: 100%;
+    width: 50vw;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    position: sticky;
+    bottom: 0.4%;
+    right: 1%;
+
+}
+.sendMeIcon{
+    width: 100px;
+    height: 100px;
+}
+
+@media screen  and (max-width: 706px){
+    .stickyWhatsApp{
+        visibility: hidden;
+    }
+}

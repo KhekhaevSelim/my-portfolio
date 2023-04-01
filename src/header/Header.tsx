@@ -2,10 +2,15 @@ import h from "./Header.module.css"
 import React from 'react';
 import Nav from "../nav/Nav";
 
-const Header = () => {
+type HeaderPropsType = {
+    rotate : boolean,
+    setRotate : (rotate:boolean)=> void
+}
+
+const Header = (props : HeaderPropsType) => {
     return (
         <div className={h.header}>
-         <Nav/>
+         <Nav rotate={props.rotate} setRotate={props.setRotate}/>
         </div>
     );
 };
