@@ -1,13 +1,13 @@
 .stickyWhatsApp{
     left: 100%;
-    width: 50vw;
+    width: 100%;
     display: flex;
     align-items: start;
     justify-content: end;
     position: sticky;
     bottom: 0.4%;
     right: 1%;
-
+    opacity: 1;
 }
 .sendMeIcon{
     width: 100px;

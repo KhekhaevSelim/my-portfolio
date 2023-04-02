@@ -17,8 +17,8 @@ const  Main = (props : NavPropsType) => {
 
                 <div className={m.info}>
                     <div className={m.hello}>
-                        <p>Всем привет</p>
-                        <p>Я Хехаев Селим</p>
+                        <p>Всем привет !</p>
+                        <p>Я - Хехаев Селим,</p>
                         <p>Фронтенд разработчик</p>
                     </div>
                     <div className={m.icons}>

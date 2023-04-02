@@ -4,7 +4,7 @@ const RemoteWork = () => {
     return (
         <div className={r.main}>
             <div className={r.container}>
-                <h3 className={r.title}>Рассматриваю удаленную работу</h3>
+                <h3 className={r.title}>Рассматриваю работу онлайн/оффлайн</h3>
                  <button className={r.button}>нанять меня </button>
             </div>
 

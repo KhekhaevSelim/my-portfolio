@@ -1,12 +1,16 @@
 import React from 'react';
 import s from "./Project.module.css"
-const Project = () => {
+
+type ProjectPropsType = {
+    img: string
+    rotate : boolean
+
+}
+const Project = (props: ProjectPropsType) => {
     return (
         <div className={s.main}>
-            <div className={s.preview}>
-            <button className={s.button}>preview</button>
-            </div>
-            <div className={s.description}>description</div>
+                 <img className={s.project} src={props.img} alt=""/>
+                 <button className={props.rotate ? s.buttonWithOpenMenu : s.buttonWithCloseMenu}>подробнее</button>
         </div>
     );
 };

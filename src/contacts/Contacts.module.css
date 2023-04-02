@@ -1,6 +1,6 @@
 .main {
-    height: 100vh;
-    background-color: darkgray;
+    height: 80vh;
+    background-color: #111827;
     display: flex;
     justify-content: center;
 align-items: center;
@@ -13,26 +13,56 @@ align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .form{
     width: 40%;
     display: flex;
     flex-direction: column;
 gap : 20px;
+    align-items: center;
 }
 .title{
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.label{
+    font-family: 'Passion One', cursive;
     font-size: 20px;
-    background-color: white;
+    font-weight: 400;
+    width: 500px;
+    color: white;
+    text-align: center;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input{
+    width: 300px;
+}
+.textArea{
+width: 305px;
 }
 .button{
-    width: 150px;
-    height: 30px;
-    border-radius: 20px;
-    border : none;
-    background-color: blueviolet;
-
+    width: 200px;
+    height: 40px;
+    background-color: #111827;
+    border: solid #289AB6 3px;
+    border-radius: 10px;
+    color: #289AB6;
+    font-family: 'Passion One', cursive;
+    font-size: 16px;
+    transition: 300ms ease;
     cursor: pointer;
+    margin-left: 2%;
+}
+.button:hover{
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 640px){

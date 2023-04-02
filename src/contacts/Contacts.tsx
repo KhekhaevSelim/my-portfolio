@@ -6,12 +6,11 @@ const Contacts = () => {
             <div className={c.container}>
                 <p className={c.title}>Контакты</p>
                 <form action="/" method="post" className={c.form}>
-                    First name: <input type="text" name="fname"/>
-                    Last name: <input type="text" name="lname"/>
-                    Message: <textarea></textarea>
-
+                   <label className={c.label}> почта: <input placeholder={"введите email"} className={c.input} type="text" name="fname"/></label>
+                    <label className={c.label}> ФИО: <input placeholder={"введите ФИО"} className={c.input} type="text" name="lname"/></label>
+                    <label className={c.label}> Сообщение: <textarea placeholder={"введите сообщение"} className={c.textArea}></textarea></label>
+                    <input type="submit" value="Submit" className={c.button}/>
                 </form>
-                <input type="submit" value="Submit" className={c.button}/>
             </div>
         </div>
     );

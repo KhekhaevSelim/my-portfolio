@@ -10,7 +10,7 @@ type SkillPropsType = {
 const Skill = (props: SkillPropsType) => {
     return (
         <div className={s.main}>
-            <div className={s.icon}>{props.icon}</div>
+           <img className={s.icon} src={props.icon} alt=""/>
             <h3 className={s.title}>{props.title}</h3>
             <div className={s.description}>{props.description}</div>
         </div>
