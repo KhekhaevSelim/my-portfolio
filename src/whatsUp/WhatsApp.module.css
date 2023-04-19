@@ -13,9 +13,13 @@
     width: 100px;
     height: 100px;
 }
+@media screen  and (max-width: 980px) {
+    .stickyWhatsApp {
+        /*visibility: hidden;*/
+    }
 
-@media screen  and (max-width: 706px){
-    .stickyWhatsApp{
-        visibility: hidden;
+    .sendMeIcon {
+        width: 60px;
+        height: 60px;
     }
 }
