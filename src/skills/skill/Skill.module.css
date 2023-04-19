@@ -27,15 +27,15 @@
 
 .title{
     color: white;
-    font-family: 'Passion One', cursive;
-    font-size: 32px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 40px;
     font-weight: 400;
     margin: 5px;
 }
 .description{
     color: white;
-    font-family: 'Passion One', cursive;
-    font-size: 24px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 32px;
     font-weight: 400;
     margin: 5px;
 }
