@@ -14,7 +14,7 @@ function App() {
     <div style={{backgroundColor : "#111827"}}>
         <Header rotate={rotate} setRotate={setRotate}/>
         <Main rotate={rotate}/>
-        <Skills />
+        <Skills/>
         <Projects rotate={rotate}/>
         <RemoteWork/>
         {/*<Contacts/>*/}

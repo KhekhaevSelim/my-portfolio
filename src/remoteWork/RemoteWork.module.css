@@ -32,10 +32,13 @@
     border-radius: 10px;
     color: #289AB6;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     transition: 300ms ease;
     cursor: pointer;
     margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button:hover{
     transform: scale(1.05);

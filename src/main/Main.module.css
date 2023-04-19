@@ -9,14 +9,13 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .info {
     min-height: 20vh;
-    min-width: 30vw;
+    min-width: 25vw;
     color: white;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 50px;
@@ -116,19 +115,17 @@
 
 
 .photoContainer {
-    min-width: 200px;
-    min-height: 100px;
+    min-width: 40vw;
+    min-height:60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
-
-
 }
 
 .photo {
-    width: 40vw;
-    height: 80vh;
+    width: 45vw;
+    height: 100vh;
     border-radius: 20px;
 }
 
@@ -158,7 +155,7 @@
 @media screen and (max-width: 1800px) {
     .photo {
         width: 45vw;
-        height: 70vh;
+        height: 100vh;
     }
 
     .info {
@@ -263,10 +260,10 @@
 
 @media screen and (max-width: 706px) {
     .container {
-        flex-direction: column-reverse;
+        /*flex-direction: column-reverse;*/
         align-items: center;
         justify-content: space-evenly;
-        /*flex-wrap: wrap;*/
+        flex-wrap: wrap;
 
     }
     .photo {
@@ -279,47 +276,60 @@
         text-align: center;
         align-items: center;
         justify-content: space-around;
-        font-size: 36px;
+        font-size: 30px;
         width: 80vw;
         min-height: 50vh;
         gap : 30px;
 
     }
     .btnWithCloseMenu{
-        width: 180px;
-        height: 65px;
+        width: 150px;
+        height: 55px;
     }
     .btnWithOpenMenu{
-        width: 180px;
-        height: 65px;
+        width: 150px;
+        height: 55px;
     }
 
     .github {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 
     .codewars {
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
     }
 
     .whatsApp {
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
     }
 }
 @media screen and (max-width: 560px) {
     .info {
-        font-size: 28px;
+        font-size: 20px;
         min-width: 20vw;
-
     }
+
+    .greet {
+        font-size: 28px;
+    }
+    .btnWithCloseMenu{
+        width: 130px;
+        height: 50px;
+    }
+    .btnWithOpenMenu{
+        width: 130px;
+        height: 50px;
+    }
+
     .photo {
         width: 80vw;
         height: 30vh;
     }
-    .container{
+
+    .container {
         align-items: self-start;
     }
 }

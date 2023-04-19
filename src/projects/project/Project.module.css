@@ -7,7 +7,7 @@
 }
 
 .project{
-    width: 70vw;
+    width: 80vw;
     min-height: 40vh;
    /*min-height: 55vh;*/
     display: flex;
@@ -31,11 +31,14 @@
     border-radius: 10px;
     color: #289AB6;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     transition: 300ms ease;
     cursor: pointer;
     margin-left: 2%;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .buttonWithOpenMenu{
     width: 250px;
@@ -45,10 +48,13 @@
     border-radius: 10px;
     color: #289AB6;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     transition: 300ms ease;
     cursor: pointer;
     margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .buttonWithOpenMenu:hover{
     transform: scale(1.05);
@@ -78,11 +84,18 @@
 }
 @media screen and (max-width: 800px){
     .project{
-        /*filter: blur(2px);*/
+        width: 80vw;
+        min-height: 30vh;
     }
+
 }
 
 @media screen and (max-width: 600px) {
+    .project{
+        width: 80vw;
+        min-height: 30vh;
+    }
+
     .buttonWithCloseMenu{
         width: 100px;
         height: 30px;

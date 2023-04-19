@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import s from "./Skills.module.css"
 import Skill from "./skill/Skill";
 import react from "../assets/react.svg"
@@ -16,6 +16,7 @@ import jest from "../assets/jest.png"
 import redux from "../assets/redux.svg"
 
 const Skills = () => {
+
     const skills = [
         { title : "React", description : "Разработка SPA, LP, утилитных веб-приложений", icon : react },
         { title : "Redux", description : "Организация BLL уровня с соблюдением FLUX концепции", icon : redux },
@@ -34,7 +35,7 @@ const Skills = () => {
 
     ]
     return (
-        <div className={s.main}>
+        <div className={s.main} id={"skills"}>
             <div className={s.container}>
             <p className={s.title}>Мои навыки</p>
                 <div className={s.skills}>

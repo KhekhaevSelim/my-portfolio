@@ -1,4 +1,4 @@
-import React, {useState, MouseEvent, useEffect} from 'react';
+import React, {useState, MouseEvent, useEffect, ReactComponentElement} from 'react';
 import n from "./Nav.module.css"
 import menu from "../assets/menu.png"
 import close from "../assets/close.png"
@@ -18,6 +18,17 @@ const Nav = (props : NavPropsType) => {
             e.stopPropagation()
             props.setRotate(false)
         }
+        const handleClick = (e : MouseEvent,elementId : string) => {
+            e.preventDefault()
+            props.setRotate(false)
+            const element = document.getElementById(elementId)
+            if (element) {
+                window.scrollTo({
+                    top: element.offsetTop,
+                    behavior: 'smooth',
+                })
+            }
+        }
         return (
             props.rotate ?
                 <div className={n.showMenu}>
@@ -25,10 +36,9 @@ const Nav = (props : NavPropsType) => {
                         <img src={close} className={n.closeMenu} onClick={closeMenu}/>
                     </div>
                     <div className={n.links}>
-                        <a href="">Главная</a>
-                        <a href="">Скилы</a>
-                        <a href="">Проекты</a>
-                        <a href="">Контакты</a>
+                        <a href="" onClick={(e)=>handleClick(e, "main")}>Главная</a>
+                        <a href="" onClick={(e)=>handleClick(e, "skills")}>Скилы</a>
+                        <a href="" onClick={(e)=>handleClick(e, "projects")}>Проекты</a>
                     </div>
                 </div>
                 :

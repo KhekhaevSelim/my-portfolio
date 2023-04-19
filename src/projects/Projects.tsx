@@ -15,7 +15,7 @@ const Projects = (props : ProjectsPropsType) => {
         { img : onlineShop}
     ]
     return (
-        <div className={s.main}>
+        <div className={s.main} id={"projects"}>
             <div className={s.container}>
             <h2 className={s.title}>Мои проекты</h2>
                 <div className={s.projects}>

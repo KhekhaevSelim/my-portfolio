@@ -12,7 +12,7 @@ type NavPropsType = {
 const  Main = (props : NavPropsType) => {
     const phone = 79380009485
     return (
-        <div className={m.main}>
+        <div className={m.main} id={"main"}>
             <div className={m.container}>
 
                 <div className={m.info}>
