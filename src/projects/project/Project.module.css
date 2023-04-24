@@ -66,6 +66,9 @@
     width: 100%;
     text-decoration: none;
     color: #289AB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 1400px) {
 .buttonWithCloseMenu{

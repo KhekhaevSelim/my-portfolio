@@ -5,7 +5,7 @@
     justify-content: space-around;
 }
 .header{
-    font-family: 'Passion One', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
     font-size: 36px;
     font-weight: 400;
     color : #289AB6;
@@ -22,7 +22,7 @@
 
 .technologies{
     width: 30vw;
-    font-family: 'Passion One', cursive;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 30px;
     font-weight: 400;
     color : white;
@@ -38,7 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Passion One', cursive;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 24px;
     font-weight: 400;
     color : #289AB6;
