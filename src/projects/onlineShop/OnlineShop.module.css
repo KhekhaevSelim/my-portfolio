@@ -1,0 +1,124 @@
+.main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header{
+    font-family: 'Passion One', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color : #289AB6;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.technologies{
+    width: 30vw;
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color : white;
+    display: flex;
+    align-items: start;
+}
+
+.show{
+    width: 60vw;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Passion One', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color : #289AB6;
+}
+
+.img{
+    border: solid #289AB6 3px;
+    border-radius: 20px;
+    width: 100%;
+    height: 70%;
+}
+
+.buttons{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: #111827;
+    border: solid #289AB6 3px;
+    border-radius: 10px;
+    color: #289AB6;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 24px;
+    transition: 300ms ease;
+    cursor: pointer;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.link{
+    width: 100%;
+    text-decoration: none;
+    color: #289AB6;
+}
+
+@media screen and (max-width: 780px){
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .technologies{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .description{
+        font-size: 20px;
+
+    }
+    .btn{
+        width: 130px;
+        height: 30px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 520px){
+    .header{
+        font-size: 28px;
+    }
+    .btn{
+        width: 110px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .technologies{
+        font-size: 12px;
+    }
+    .description{
+        font-size: 12px;
+
+    }
+}

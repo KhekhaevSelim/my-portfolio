@@ -10,9 +10,9 @@ type ProjectsPropsType = {
 const Projects = (props : ProjectsPropsType) => {
 
     const projects = [
-        { img : taskManager },
-        { img : searchBooks},
-        { img : onlineShop}
+        { img : taskManager, path : "/taskManager" },
+        { img : searchBooks, path: "/searchBooks"},
+        { img : onlineShop, path: "/onlineShop"}
     ]
     return (
         <div className={s.main} id={"projects"}>
@@ -21,7 +21,7 @@ const Projects = (props : ProjectsPropsType) => {
                 <div className={s.projects}>
                     {projects.map(el=> {
                         return (
-                            <Project rotate={props.rotate} img={el.img}/>
+                            <Project rotate={props.rotate} img={el.img} path={el.path}/>
                         )
                     })}
 

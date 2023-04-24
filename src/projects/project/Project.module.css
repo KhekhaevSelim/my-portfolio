@@ -31,7 +31,7 @@
     border-radius: 10px;
     color: #289AB6;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     transition: 300ms ease;
     cursor: pointer;
     margin-left: 2%;
@@ -48,7 +48,7 @@
     border-radius: 10px;
     color: #289AB6;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     transition: 300ms ease;
     cursor: pointer;
     margin-left: 2%;
@@ -61,6 +61,11 @@
 }
 .buttonWithCloseMenu:hover{
     transform: scale(1.05);
+}
+.link{
+    width: 100%;
+    text-decoration: none;
+    color: #289AB6;
 }
 @media screen and (max-width: 1400px) {
 .buttonWithCloseMenu{
