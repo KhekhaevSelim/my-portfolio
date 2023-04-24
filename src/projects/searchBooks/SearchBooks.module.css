@@ -2,7 +2,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 }
 .header{
     font-family: 'Rubik Wet Paint', cursive;
@@ -43,7 +43,6 @@
     font-weight: 400;
     color : #289AB6;
 }
-
 .img{
     border: solid #289AB6 3px;
     border-radius: 20px;
@@ -114,10 +113,10 @@
         font-size: 12px;
     }
     .technologies{
-        font-size: 12px;
+        font-size: 18px;
     }
     .description{
-        font-size: 12px;
+        font-size: 24px;
 
     }
 }
