@@ -23,7 +23,7 @@ const TaskManager = () => {
                         <button className={s.btn}><a
                             href="https://github.com/KhekhaevSelim/task-manager"
                             className={s.link}
-                        >смотреть код</a></button>
+                        >код</a></button>
                         <button className={s.btn}>
                             <a
                                 href="https://khekhaevselim.github.io/task-manager/"

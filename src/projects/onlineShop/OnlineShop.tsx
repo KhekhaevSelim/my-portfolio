@@ -22,7 +22,7 @@ const OnlineShop = () => {
                             <a
                                 href="https://github.com/KhekhaevSelim/online-shop"
                                 className={s.link}
-                            >смотреть код</a>
+                            >код</a>
                             </button>
                         <button className={s.btn}>
                             <a

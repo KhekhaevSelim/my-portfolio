@@ -23,7 +23,7 @@ const SearchBooks = () => {
                             <a
                                 href="https://github.com/KhekhaevSelim/search-book-app"
                                 className={s.link}
-                            >смотреть код</a>
+                            >код</a>
                             </button>
                         <button className={s.btn}>
                             <a

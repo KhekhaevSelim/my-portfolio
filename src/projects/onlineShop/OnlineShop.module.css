@@ -41,8 +41,10 @@
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
     color : #289AB6;
 }
+
 .img{
     border: solid #289AB6 3px;
     border-radius: 20px;
