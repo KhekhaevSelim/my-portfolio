@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.61f71520.css",
-    "main.js": "/my-portfolio/static/js/main.0431b23b.js",
+    "main.css": "/my-portfolio/static/css/main.7a75091d.css",
+    "main.js": "/my-portfolio/static/js/main.c1522149.js",
     "static/js/787.153703e0.chunk.js": "/my-portfolio/static/js/787.153703e0.chunk.js",
     "static/media/searchBooks2.bmp": "/my-portfolio/static/media/searchBooks2.eb169883b1b7f5a2a27a.bmp",
+    "static/media/online-shop.bmp": "/my-portfolio/static/media/online-shop.5cebfdb1862aaccf55d1.bmp",
     "static/media/taskManager2.bmp": "/my-portfolio/static/media/taskManager2.30af7c7936d1d75005c9.bmp",
-    "static/media/online-shop.bmp": "/my-portfolio/static/media/online-shop.0fbb5a740e1543026174.bmp",
     "static/media/me.png": "/my-portfolio/static/media/me.ed5ce3d6278470bfdcd3.png",
     "static/media/menu.png": "/my-portfolio/static/media/menu.9556fd6234020516f163.png",
     "static/media/codewars.png": "/my-portfolio/static/media/codewars.9d9936ce350b8f022737.png",
@@ -21,12 +21,12 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/css.svg": "/my-portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/my-portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.61f71520.css.map": "/my-portfolio/static/css/main.61f71520.css.map",
-    "main.0431b23b.js.map": "/my-portfolio/static/js/main.0431b23b.js.map",
+    "main.7a75091d.css.map": "/my-portfolio/static/css/main.7a75091d.css.map",
+    "main.c1522149.js.map": "/my-portfolio/static/js/main.c1522149.js.map",
     "787.153703e0.chunk.js.map": "/my-portfolio/static/js/787.153703e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61f71520.css",
-    "static/js/main.0431b23b.js"
+    "static/css/main.7a75091d.css",
+    "static/js/main.c1522149.js"
   ]
 }
